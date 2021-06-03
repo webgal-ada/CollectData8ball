@@ -11,8 +11,9 @@ let arr = [];
   function showArr() {
     var input = document.querySelectorAll("input");
     for(let i = 0; i < input.length; i++) {
+      input[i].value = '';
       let value = input[i].value;
-        para[1].append(value);
+        para[1].append(value + " ");
 
 
   }
